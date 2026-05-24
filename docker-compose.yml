@@ -1,5 +1,5 @@
 services:
   app:
-    build: .
+    image: shivamjaswal/basic-app:latest
     ports:
       - "8081:8081"
